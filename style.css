@@ -37,8 +37,10 @@ html,body {
  .gallery{
      display: flex;
     flex-wrap: wrap;
-     
-    
+ }
+ #box1-bold-text{
+     font-size: x-large;
+     font-style: italic;
  }
 .galleryimg img{
     width: 500px;
