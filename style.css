@@ -24,11 +24,17 @@ html,body {
     font-style: italic;
     font-size: xx-large;
 }
+#item-holder{
+    display: flex;
+    
+}
 #whitebox-text{
     background-color: white;
     font-size: large;
-    padding: 80px;
-    margin: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
 }
 .box1, .box2, .gallery2{
     background-color: #e09f9f;
@@ -57,4 +63,14 @@ html,body {
     display: flex;
     flex-direction: row;
 
+ }
+ .slide-img{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+   align-content: stretch;
+ }
+ #product-box{
+     display: flex;
+     
  }
