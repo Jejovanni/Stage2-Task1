@@ -4,41 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Product page</title>
 </head>
 <body>
-    <div class="motherbox">
-        <div class="banner">
-            <div id="menu-icon"><img src="menu.svg" alt="menu button">
-            </div>
-            <div id="item-holder">
-                <div id="banner-header"><h1>about</h1></div>
+    <main>
+        <header>
+            <div class="row">
+                <div id="menu-icon"><img src="menu.svg" alt="menu button">
+                </div>
+                
+                   <h1 class="banner-heading custom-font">about</h1>
 
-                <div id="whitebox-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Earum ducimus autem, beatae unde ea quis, alias possimus distinctio 
-                fugit eaque omnis doloribus dignissimos ullam odit vero? Mollitia placeat 
-                itaque ab!</p></div>
+                    <div class="banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Earum ducimus autem, beatae unde ea quis, alias possimus distinctio 
+                    fugit eaque omnis doloribus dignissimos ullam odit vero? Mollitia placeat 
+                    itaque ab!</div>
+                
             </div>
-        </div>
-        <div class="box1">
-            <h3 id="box1-bold-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequuntur 
-                placeat earum eveniet sint ab quae qui nesciunt unde magni impedit quibusdam, veniam!</h3>
+        </header>
+        <section class="annon-section">
+            <div class="row-column">
+                <h6 class="annon custom-font"><span>L</span>orem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequuntur 
+                    placeat earum eveniet sint ab quae qui nesciunt unde magni impedit quibusdam, veniam! Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. </h6>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro aspernatur, 
-                    dolorum ab neque temporibus ad modi, velit tempora voluptate accusamus omnis maiores 
-                    illum facilis, sint laborum sit saepe recusandae?</p>
-        </div>
-        <div class="gallery">
-            
-            <div class="galleryimg"><img src="gallery-1.jpeg" alt="black female model"></div>
-            <div class="galleryimg"><img src="gallery-2.jpeg" alt="white female model"></div>
-            <div class="galleryimg"><img src="gallery-3.jpeg" alt=""></div>
-            <div class="galleryimg"><img src="gallery-4.jpeg" alt="white female model in coat"></div>
-            <div class="galleryimg"><img src="gallery-5.jpeg" alt="two models in coats"></div>
-            <div class="galleryimg"><img src="gallery-6.jpeg" alt=""></div>
-        </div>
-        <div class="box2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro aspernatur, 
+                        dolorum ab neque temporibus ad modi, velit tempora voluptate accusamus omnis maiores 
+                        illum facilis, sint laborum sit saepe recusandae, Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Nisi, recusandae non. Minus facilis earum magni ad aliquam exercitationem illo tempora quaerat ullam 
+                        pariatur vel ducimus ipsum, quibusdam alias quos repudiandae?</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="row-100">
+                <div class=" img-container gallery-img-1"></div>
+                <div class=" img-container gallery-img-2"></div>
+                <div class=" img-container gallery-img-3"></div>
+            </div>
+            <div class="row-100"> 
+                <div class=" img-container gallery-img-4"></div>
+                <div class=" img-container gallery-img-5"></div>
+                <div class=" img-container gallery-img-6"></div>
+            </div> 
+        </section>
+
+        <section class="coming-soon"></section>
+        <div class="row-100">
             <h2>coming soon</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde enim dolorem quaerat minimaibus.</p>
             <div class="input-box">
@@ -84,6 +99,6 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum laboriosam ullam tenetur dignissimos est fugiat eos, debitis, iure voluptatem facere? Eaque ipsum quam earum tempore quis nemo fugit totam!</p>
         </div>
         <div></div>
-    </div>
+    </main>
 </body>
 </html>
