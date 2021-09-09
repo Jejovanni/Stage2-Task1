@@ -239,5 +239,82 @@ header {
 .slide-heading {
     font-size: 3.5rem;
     font-style: italic;
-    text-align: center;
+   margin-bottom: 1.3rem;
+}
+
+.slide-img-container {
+    flex-grow: 1;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.3rem;
+}
+
+.slide-img-1 {
+    background-image: url(slide-1.jpg);
+}
+.slide-img-2 {
+    background-image: url(slide-2.jpg);
+}
+.slide-img-3 {
+    background-image: url(slide-3.jpg);
+}
+.slide-img-4 {
+    background-image: url(slide-4.jpg);
+}
+
+.slide-img {
+    width: 100%;
+}
+
+.slide-icon-container {
+    margin-top: 1.4rem;
+}
+
+.product {
+    padding: 4rem;
+}
+
+.product-container {
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.product-container, .product-description {
+    padding: 0.8rem;
+}
+
+.product-description {
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-description h4 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.product-description .price-tag {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.product-description p {
+    font-size: .9rem;
 }
