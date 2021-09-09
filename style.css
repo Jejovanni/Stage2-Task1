@@ -22,6 +22,12 @@ body {
     flex-direction: row;
 }
 
+.row-column-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .row-column {
     width: 80%;
     display: flex;
@@ -113,8 +119,6 @@ header {
     background-image: url(gallery-2.jpeg);
 }
  
-
-
  .gallery .gallery-img-3{
     background-image: url(gallery-3.jpeg);
 }
@@ -136,30 +140,104 @@ header {
 
  }
 
-/*.galleryimg img {
-    width: 500px;
-    height: 700px;
-    object-fit: cover;
-   align-content: stretch;
- }*/
- .box2{
-    text-align: center;
-    color: white;
+ .coming-soon{
+     background-color: #d9b1b3;
+     color: white;
+     padding: 50px 0;
  }
- .gallery2{
+
+.coming-soon .row-column-100 {
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
     text-align: center;
+}
+
+.coming-soon .coming-soon-heading {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+
+.coming-soon .coming-soon-form {
+    margin-top: 35px;
+}
+
+.coming-soon-form .row-100 {
+    justify-content: center;
+}
+
+.coming-soon-form .input-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    padding: 0 5px;
+}
 
- }
- /*.slide-img{
-    width: 500px;
-    height: 700px;
-    object-fit: cover;
-   align-content: stretch;
- }*/
+.input-container .text-input,
+.input-container .form-btn {
+    padding: 12px 10px;
+    border: unset;
+    border-radius: 20px;
+}
 
- #product-box{
-     display: flex;
-     
- }
+.input-container .form-btn {
+    background-color: black;
+    color: white;
+}
+
+.article {
+    background-color: white;
+    padding: 3rem;
+    
+}
+
+.article-img-container,.article-text-container {
+    height: 35rem;
+    display: flex;
+    align-items: center;
+}
+
+.article-img-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 35%;
+}
+
+.article-img-container .article-img {
+    width: 100%;
+}
+
+.article-text-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 55%;
+    padding: 1.3rem;
+}
+
+.article-text-container .article-text {
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+.slide {
+    padding: 3.5rem;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.slide .row-100 {
+    justify-content: center;
+}
+
+.slide-heading {
+    font-size: 3.5rem;
+    font-style: italic;
+    text-align: center;
+}
