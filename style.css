@@ -340,6 +340,7 @@ header {
 .subscribe-text-container {
     justify-content: center;
     align-items: center;
+    border: black solid;
 }
 
 .subscribe-img-container {
@@ -370,16 +371,17 @@ header {
 .input-container input {
     padding: 0.8rem 1rem;
     margin: 1rem;
+    width: 17.1rem;
 }
 
 .input-container button {
     width: 8rem;
-    padding: 0.7rem;
+    padding: 0.8rem;
     background-color: black;
     color: white;
     border: unset;
     border-radius: 1.3rem;
-
+    
 }
 
 .input-container button:hover {
@@ -389,4 +391,23 @@ header {
 .subscribe-text {
     font-size: .7rem;
     font-weight: lighter;
+}
+
+.subscribe-form {
+    width: 43rem;
+    margin-left: 7.5rem;
+    border: black solid;
+}
+
+.subscribe-text-container p {
+    margin: 0rem 15rem 0rem 15rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    border: black solid;
+    width: 10rem;
+    margin-left: 20rem;
+
 }
