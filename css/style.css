@@ -40,7 +40,7 @@ body {
 
 header {
      /*might have to cut this line*/
-    height: 120vh;
+    height: 93vh;
     display: flex;
     background: url(../images/banner.jpeg);
     background-repeat: no-repeat;
@@ -51,10 +51,21 @@ header {
     padding: 60px;
 }
 
-.banner{
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-icon {
+    margin: 32rem;
+    padding-left: 17rem;
+}
+
+.banner-text-con {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
 }
 
 .banner-heading {
@@ -69,7 +80,8 @@ header {
     font-size: 0.9rem;
     font-weight: normal;
     padding: 30px;
-    width: 80%;
+    width: 70%;
+    margin-left: 4rem;
 }
 
  .annon-section{
@@ -140,10 +152,12 @@ header {
      background-color: #d9b1b3;
      color: white;
      padding: 50px 0;
+     height: 20rem;
  }
 
 .coming-soon .row-column-100 {
     justify-content: center;
+    margin-top: -2rem;
 }
 
 .coming-soon .coming-soon-heading,
@@ -155,6 +169,7 @@ header {
 .coming-soon .coming-soon-heading {
     font-size: 4rem;
     font-style: italic;
+    margin-bottom: 0rem;
 }
 
 .coming-soon .coming-soon-text{
@@ -173,11 +188,9 @@ header {
     display: flex;
     justify-content: center;
     padding: 0 5px;
-    border: red solid;
 }
 
-.input-container .text-input
-{
+.input-container .text-input, .input-container .form-btn {
     padding: 12px 10px;
     border: unset;
     border-radius: 20px;
@@ -187,8 +200,8 @@ header {
     background-color: black;
     color: white;
     border-radius: 20px;
-    
-    border: red solid;
+    height: 3rem;
+    margin: 12px 2px 2px 2px;
 }
 
 
@@ -226,6 +239,7 @@ header {
     font-size: 1.1rem;
     font-weight: 100;
     line-height: 2rem;
+    margin-right: 6rem;
 }
 
 .slide {
@@ -279,17 +293,25 @@ header {
     padding: 4rem;
 }
 
+.product-holder {
+   display: flex;
+   margin: 5rem 5rem;
+    
+}
+
 .product-container {
-    height: 300px;
+    height: 500px;
     flex-grow: 1;
     flex-basis: 33.33%;
     overflow: hidden;
     display: flex;
     align-items: center;
+   
 }
 
 .product-container img {
-    width: 100%;
+    width: 95%;
+    object-fit: fit;
 }
 
 .product-container, .product-description {
@@ -300,6 +322,8 @@ header {
     height: 300px;
     flex-grow: 1;
     flex-basis: 33.33%;
+    margin-top: 8rem;
+    margin-left: -5rem;
 }
 
 .product-description h4 {
@@ -318,7 +342,9 @@ header {
 
 .product-description p {
     font-size: .8rem;
+    line-height: 1.8rem;
     margin-bottom: 1rem;
+    margin-right: 4rem;
 }
 
 .product-description button {
@@ -340,7 +366,7 @@ header {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 50%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .subscribe-text-container {
@@ -350,9 +376,11 @@ header {
 
 .subscribe-img-container {
     background-image: url(../images/subscribe.jpeg);
+    height: 58rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .subscribe-heading {
@@ -406,6 +434,7 @@ header {
 
 .subscribe-text-container p {
     margin: 2rem 15rem 0rem 15rem;
+    text-align: center;
 }
 
 .social-media {
